@@ -11,6 +11,15 @@ CREATE TABLE `felhasznalok` (
   `jelszo` varchar(40) NOT NULL default '',
   PRIMARY KEY  (`id`)
 )
+
+CREATE TABLE `uzenetek` (
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `nev` varchar(20) NOT NULL default '',
+  `email` varchar(30) NOT NULL default '',
+  `uzenet` varchar(100) NOT NULL default '',
+  PRIMARY KEY  (`id`)
+)
+
 ENGINE = MYISAM
 CHARACTER SET utf8 COLLATE utf8_general_ci;
 

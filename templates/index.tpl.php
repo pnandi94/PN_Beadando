@@ -14,7 +14,7 @@
 		<h1><?= $fejlec['cim'] ?></h1>
 		<?php if (isset($fejlec['motto'])) { ?><h2><?= $fejlec['motto'] ?></h2><?php } ?>
 		<?php if (isset($fejlec['link'])) { ?><a href='<?= $fejlec['link'] ?>'><?= $fejlec['linknev'] ?></a><?php } ?>
-		<?php if(isset($_SESSION['login'])) { ?>Bejlentkezve: <strong><?= $_SESSION['csn']." ".$_SESSION['un']." (".$_SESSION['login'].")" ?></strong><?php } ?>
+		<?php if(isset($_SESSION['login'])) { ?>Bejlentkezve: <strong><?= $_SESSION['csn']." ".$_SESSION['un']." (".$_SESSION['login'].")" ?><?php } ?>
 	</header>
     <div id="wrapper">
         <aside id="nav">

@@ -41,13 +41,8 @@ nav ul li.active {
 }
 
 nav ul a {
-	display: inline;
     text-decoration: none;
     color: blue;
-}
-
-li {
-	display: inline;
 }
 
 div#content {
@@ -73,3 +68,26 @@ footer {
     padding: 5px 20px;
     background-color: #CC99FF;
 }
+
+div {
+	width: 500px;
+	}
+label {
+	line-height: 30px;
+
+	}
+label input, label textarea {
+	float: right;
+	border: 2px red solid;
+	padding: 2px;
+	}
+textarea {
+	width: 350px;
+	}
+input[type="submit"] {
+	float: right;
+	clear: both;
+	}
+button {
+	float: right;
+	}

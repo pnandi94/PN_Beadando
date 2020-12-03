@@ -32,6 +32,7 @@
 	<form action="./templates/pages/feltolt.php" method="POST">
 		<button type="submit" name="submit">Képfeltöltés</button>
 	</form>
+	</br>
 	<?php } 
     arsort($kepek);
     foreach($kepek as $fajl => $datum)

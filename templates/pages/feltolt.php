@@ -15,6 +15,7 @@
 						or $fajl['size'] > $MAXMERET) 
 				$uzenet[] = " Túl nagy állomány: " . $fajl['name'];
 			else{
+				$vegsohely = './gallery/'.strtolower($fajl['name']);
 				if (file_exists($vegsohely))
 					$uzenet[] = " Már létezik: " . $fajl['name'];
 				else {
@@ -57,5 +58,8 @@
         </label>        
         <input type="submit" name="kuld">
     </form>
+		<form action="../.././index.php" method="POST">
+		<button type="submit" name="submit">Vissza a főoldalra</button>
+	</form>
 </body>
 </html>

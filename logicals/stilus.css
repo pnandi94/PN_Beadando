@@ -1,6 +1,6 @@
 header {
     border-radius: 10px;
-    background-color: blue;
+    background-color: yellow;
     padding: 10px;
     margin: 10px;
 }
@@ -77,6 +77,8 @@ label {
 
 	}
 label input, label textarea {
+	/*position: relative;
+	left: 200px;*/
 	float: right;
 	border: 2px red solid;
 	padding: 2px;
