@@ -1,27 +1,28 @@
 <?php
 $ablakcim = array(
-    'cim' => 'gazditkeresek.hu',
+    'cim' => 'hatoslotto.hu',
 );
 
 $fejlec = array(
-    'kepforras' => 'logo.jpg',
+    'kepforras' => 'logo.png',
     'kepalt' => 'logo',
-	'cim' => 'gazditkeresek.hu',
-	'motto' => 'állatvédelmi közösségi portál és adatbázis',
-	'link' => 'http://gazditkeresek.hu',
-	'linknev' => 'gazditkeresek.hu'
+	'cim' => 'Hatoslottó',
+	'motto' => 'Velünk csak nyerhetsz',
+	'link' => 'https://www.szerencsejatek.hu',
+	'linknev' => 'Szerencsejatek.hu'
 );
 
 $lablec = array(
-    'copyright' => 'Fejlesztette: Pánya Nándor '.date("Y").'.',
-    'ceg' => 'gazditkeresek.hu - 2005 óta az állatok szolgálatában '
+    'copyright' => 'Fejlesztette: Keresztes Zoltán Gábor és Pánya Nándor '.date("Y").'.',
+    'ceg' => 'Kezpán Kft. - Mellettünk a szerencse 2021 óta'
 );
 
 $oldalak = array(
 	'/' => array('fajl' => 'cimlap', 'szoveg' => 'Címlap', 'menun' => array(1,1)),
+	'arfolyamok' => array('fajl' => 'arfolyamok', 'szoveg' => 'Árfolyamok', 'menun' => array(1,1)),
 	'galeria' => array('fajl' => 'galeria', 'szoveg' => 'Galéria', 'menun' => array(1,1)),
-	'kapcsolat' => array('fajl' => 'kapcsolat', 'szoveg' => 'Kapcsolat', 'menun' => array(1,1)),
-    'uzenetek' => array('fajl' => 'uzenetek', 'szoveg' => 'Üzenetek', 'menun' => array(1,1)),
+	'hirek' => array('fajl' => 'hirek', 'szoveg' => 'Hírek', 'menun' => array(1,1)),
+    'hirfeltoltes' => array('fajl' => 'hirfeltoltes', 'szoveg' => 'Hír feltöltés', 'menun' => array(0,1)),
     'belepes' => array('fajl' => 'belepes', 'szoveg' => 'Belépés', 'menun' => array(1,0)),
     'kilepes' => array('fajl' => 'kilepes', 'szoveg' => 'Kilépés', 'menun' => array(0,1)),
     'belep' => array('fajl' => 'belep', 'szoveg' => '', 'menun' => array(0,0)),
